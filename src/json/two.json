@@ -1,0 +1,169 @@
+var list=[
+    {"u1":"手机","a1":"https://shouji.suning.com/phone2018.html","em1":"/","u2":"运营商","a2":"https://yys.suning.com/","em2":"/","u3":"智能数码","a3":"https://pindao.suning.com/city/zhinengshuma.html","em3":"","u4":"","a4":"","mg":"https://image5.suning.cn/uimg/cms/img/159823772695221015.png"},
+    {"u1":"家用电器","a1":"https://pindao.suning.com/city/chuwei.html","u2":"","u3":"","u4":"","a2":"","a3":"","a4":"","em1":"","em2":"","em3":"","em4":"","mg":"https://image2.suning.cn/uimg/cms/img/159823778233607035.png"},
+    {"u1":"厨卫","a1":"https://pindao.suning.com/city/chuwei.html","em1":"/","u2":"生活家电","a2":"https://pindao.suning.com/city/xiaojiadian.html","em2":"/","u3":"厨具","a3":"https://pindao.suning.com/city/chuiju.html","em3":"","u4":"","a4":"","mg":"https://image3.suning.cn/uimg/cms/img/159521436499527653.png"},
+    {"u1":"电脑办公","a1":"https://pindao.suning.com/city/diannao.html","em1":"/","u2":"相机","a2":"https://pindao.suning.com/city/shuma.htm","em2":"/","u3":"DIY","a3":"https://list.suning.com/0-20529-0.html","em3":"","u4":"","a4":"","mg":"https://image3.suning.cn/uimg/cms/img/159521445289226582.png"},
+    {"u1":"家居","a1":"https://search.suning.com/%E5%AE%B6%E7%BA%BA/","em1":"/","u2":"家具","a2":"https://pindao.suning.com/city/jiajuguan.html","em2":"/","u3":"家装","a3":"https://pindao.suning.com/city/jiazhuang.html","em3":"/","u4":"家纺","a4":"https://list.suning.com/0-161645-0.html","mg":"https://image5.suning.cn/uimg/cms/img/159521457914933994.png"},
+    {"u1":"食品","a1":"https://list.suning.com/0-500353-0.html","em1":"/","u2":"酒水","a2":"https://search.suning.com/%E9%85%92/","em2":"/","u3":"生鲜","a3":"https://sxs.suning.com/sxspc_huadong.html","em3":"/","u4":"特产","a4":"https://china.suning.com/","mg":"https://image3.suning.cn/uimg/cms/img/159521467494115353.png"},
+    {"u1":"美妆","a1":"https://cuxiao.suning.com/scms/rfmypc.html","em1":"/","u2":"个护","a2":"https://binggo.suning.com/meizhuang_temai.htm","em2":"/","u3":"清洁","a3":"https://list.suning.com/0-161657-0.html","em3":"/","u4":"宠物","a4":"https://list.suning.com/0-500552-0.html","mg":"https://image5.suning.cn/uimg/cms/img/159521511071559464.png"},
+    {"u1":"母婴","a1":"https://redbaby.suning.com/","em1":"/","u2":"玩具","a2":"https://cuxiao.suning.com/scms/wanjuju.html","em2":"/","u3":"车床","a3":"https://cuxiao.suning.com/scms/tczycardayPC.html","em3":"/","u4":"童装","a4":"https://cuxiao.suning.com/scms/tztxcxye.html","mg":"https://image5.suning.cn/uimg/cms/img/159521519805876875.png"},
+    {"u1":"运动","a1":"https://sports.suning.com/","em1":"/","u2":"户外","a2":"https://list.suning.com/0-420008-0.html","em2":"/","u3":"足球","a3":"https://shop.suning.com/30001902/index.html","em3":"/","u4":"骑行","a4":"https://list.suning.com/0-420010-0.html","mg":"https://image3.suning.cn/uimg/cms/img/159521553751456837.png"},
+    {"u1":"女装","a1":"https://fashion.suning.com/","em1":"/","u2":"男装","a2":"https://fashion.suning.com/","em2":"/","u3":"内衣","a3":"https://fashion.suning.com/","em3":"/","u4":"鞋靴","a4":"https://fashion.suning.com/","mg":"https://image3.suning.cn/uimg/cms/img/159521561707762538.png"},
+    {"u1":"箱包","a1":"https://pindao.suning.com/city/xiangbao.html","em1":"/","u2":"钟表","a2":"https://pindao.suning.com/city/zhongbiaoyanjing.html","em2":"/","u3":"珠宝","a3":"https://pindao.suning.com/city/zhubao.html","em3":"/","u4":"艺术","a4":"https://pindao.suning.com/city/stamp.html","mg":"https://image2.suning.cn/uimg/cms/img/159521571065832724.png"},
+    {"u1":"汽车","a1":"https://pindao.suning.com/city/snqcsh.html","em1":"/","u2":"电摩","a2":"https://search.suning.com/%E7%94%B5%E5%8A%A8%E8%BD%A6/&ci=504570&iy=-1&st=0?safp=d488778a.homepage1.99345513004.68&safpn=10001#search-path","em2":"/","u3":"汽车用品","a3":"https://car.suning.com/qcypnew.html","em3":"","u4":"","a4":"","mg":"https://image1.suning.cn/uimg/cms/img/159521577313810168.png"},
+    {"u1":"图书","a1":"https://book.suning.com/","em1":"/","u2":"艺术","a2":"https://list.suning.com/0-502325-0.html","em2":"/","u3":"原版","a3":"https://search.suning.com/%E5%8E%9F%E7%89%88%E4%B9%A6/","em3":"/","u4":"文学","a4":"https://list.suning.com/0-502319-0.html","mg":"https://image5.suning.cn/uimg/cms/img/159521583003884630.png"},
+    {"u1":"医药健康","a1":"https://yao.suning.com/","em1":"/","u2":"计生情趣","a2":"https://yao.suning.com/","em2":"","u3":"","a3":"","em3":"","u4":"","a4":"","mg":"https://image2.suning.cn/uimg/cms/img/159521587904815341.png"},
+    {"u1":"理财","a1":"https://licai.suning.com/lcportal/licaiIndex.htm?channelCode=PC_YGMstation","em1":"/","u2":"分期","a2":"https://paypassport.suning.com/ids/login?service=https%3A%2F%2Frxf.suning.com%2Fepps-cpf%2Fauth%3FtargetUrl%3Dhttps%253A%252F%252Frxf.suning.com%252Fepps-cpf%252FaccountMgt%252FassetOverview.do&loginTheme=defaultTheme","em2":"/","u3":"保险","a3":"https://www.snisc.cn/","em3":"/","u4":"便民","a4":"https://pay.suning.com/epp-epw/lifecenter/index.action","mg":"https://image5.suning.cn/uimg/cms/img/159521591911148163.png"}]
+
+var hcList=[
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000011344708127.jpg?ver=2000&format=400w_400h_4e","name":"手机通讯","word":"至高24期免息"},
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000012063409775.jpg?ver=2000&format=400w_400h_4e","name":"冰箱洗衣机","word":"抢300元券"},
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000000735494281.jpg?ver=2000&format=400w_400h_4e","name":"电视家影","word":"55吋999"},
+    {"mg":"https://imgservice.suning.cn/uimg1/b2c/image/kBiLPHOa2hlbN0NCUjvRcg.jpg?format=400h_400w_4e_80q","name":"休闲零食","word":"满299减210"},
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000010909631883.jpg?ver=2000&format=400w_400h_4e","name":"集成家电","word":"爆款送冰柜"},
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000012035542772.jpg?ver=2001&format=400w_400h_4e","name":"空调大牌","word":"每1000减100"},
+    {"mg":"https://imgservice.suning.cn/uimg1/sniss/improve/ojFj53yugFLQGmdiKVAOXg.jpg","name":"电脑办公","word":"24期免息"},
+    {"mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000000635982532.jpg?ver=2002&format=400w_400h_4e","name":"生活家电","word":"至高减千元"},
+    {"mg":"https://imgservice.suning.cn/uimg1/b2c/image/ov_FYjrt6fvaRr399kHk6g.jpg?format=400h_400w_4e_80q","name":"智能数码","word":"立减300元"},
+    {"mg":"https://imgservice.suning.cn/uimg1/b2c/image/ejdSIm8Vgg-VmUcUOuTbVg.jpg?format=400h_400w_4e_80q","name":"海外好货","word":"定金抵千元"}]
+
+var leftcontent=[
+    {"t2":"卖爆10.0万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000010776710050&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FEhRkdHV6x9kDSn9Vcr3Q1g.jpg&productName=%E6%A1%91%E5%85%8B%E6%8B%89%EF%BC%88SUN%20CLARA%EF%BC%89%E4%B8%81%E9%A6%99%E8%8C%B6100g%2F%E7%93%B6%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1%E5%8E%9F%E4%BA%A7%E5%9C%B0%E7%B2%BE%E9%80%89%E5%85%BB%E5%AB%A9%E8%8A%BD%E8%83%83%E8%8C%B6%E5%85%BB%E7%94%9F%E8%8C%B6%E5%8F%B6&price=24.20&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162051%2Ccatesource%3Aparent-city&catalogueName=%E8%90%A5%E5%85%BB%E6%BB%8B%E8%A1%A5%E6%A6%9C&catalogueId=162051&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/EhRkdHV6x9kDSn9Vcr3Q1g.jpg","t1":"人气榜","t3":"营养滋补榜","icon":"https://image4.suning.cn/uimg/cms/img/159533153596347678.png"},
+    {"t2":"卖爆2.0万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000011890765218&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FLw8WIPcZXm0auOhDghliNQ.jpg&productName=%E7%BE%8E%E7%9A%84(Midea)%201.5%E5%8C%B9%20%E6%96%B0%E8%83%BD%E6%95%88%E5%8F%98%E9%A2%91%20%E6%99%BA%E8%83%BD%E5%86%B7%E6%9A%96%E6%8C%82%E6%9C%BA%E7%A9%BA%E8%B0%83%201.5P%20%E6%8C%82%E5%A3%81%E5%BC%8F%E5%AE%B6%E7%94%A8%E7%A9%BA%E8%B0%83%E5%B0%8F%E8%8B%8F%E6%89%93KFR-35GW%2FN8VJA3&price=2099.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162553%2Ccatesource%3Aparent-city&catalogueName=%E7%95%85%E9%94%80%E5%AE%B6%E7%94%A8%E7%A9%BA%E8%B0%83%E6%A6%9C&catalogueId=162553&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/Lw8WIPcZXm0auOhDghliNQ.jpg","t1":"人气榜","t3":"畅销家用空调榜","icon":"https://image4.suning.cn/uimg/cms/img/159533154337628618.png"},
+    {"t2":"卖爆1.9万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0070210701&productCode=000000012102425018&productType=2&shopCode=0070210701&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FWEGtbqWhtZj1yakDvX9RJg.jpg&productName=%E3%80%90%E7%A4%BC%E5%88%B8%E3%80%91%E9%98%B3%E6%BE%84%E7%88%B5%E5%A3%AB%E9%98%B3%E6%BE%84%E6%B9%96%E5%A4%A7%E9%97%B8%E8%9F%B9%E7%A4%BC%E5%88%B8%201298%E5%9E%8B%20%E5%85%AC4.0%E4%B8%A4*4%E5%8F%AA%20%E6%AF%8D3.0%E4%B8%A4*4%E5%8F%AA%20%20%20%E5%A4%A7%E9%97%B8%E8%9F%B9%E7%A4%BC%E5%93%81%E5%8D%A1%20%20%E5%8D%A1%E5%88%B8%20%20%E7%A4%BC%E5%93%81%E5%8D%A1&price=228.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162188%2Ccatesource%3Aparent-city&catalogueName=%E9%B2%9C%E5%AB%A9%E6%B0%B4%E4%BA%A7%E6%B5%B7%E9%B2%9C%E6%A6%9C&catalogueId=162188&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/WEGtbqWhtZj1yakDvX9RJg.jpg","t1":"人气榜","t3":"鲜嫩水产海鲜榜","icon":"https://image2.suning.cn/uimg/cms/img/159533155118200511.png"},
+    {"t2":"本周趋势上升112%","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000011723973325&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2F73hUAyZI1T2yp6NrMH4ICg.jpg&productName=%E7%BE%8E%E7%9A%84(Midea)MB80ECO1%20%E6%96%B0%E5%93%818%E5%85%AC%E6%96%A4%E5%85%A8%E8%87%AA%E5%8A%A8%E6%B3%A2%E8%BD%AE%E6%B4%97%E8%84%B1%E4%B8%80%E4%BD%93%E6%B4%97%E8%A1%A3%E6%9C%BA%20%E5%85%8D%E6%B8%85%E6%B4%97%E5%86%85%E6%A1%B6%20%E6%B0%B4%E7%94%B5%E5%8F%8C%E5%AE%BD%20%E5%AE%B6%E7%94%A8%E7%99%BD%E8%89%B2&price=799.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A62c2aea8-9e65-4474-9f9e-6a94131f7112%2Cdab%3A21-44_cateid%3A162357%2Ccatesource%3Aparent-city&catalogueName=%E9%AB%98%E6%80%A7%E8%83%BD%E6%B4%97%E8%A1%A3%E6%9C%BA%E6%A6%9C&catalogueId=162357&labelType=2-1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/73hUAyZI1T2yp6NrMH4ICg.jpg","t1":"趋势榜","t3":"高性能洗衣机榜","icon":"https://image4.suning.cn/uimg/cms/img/159533153596347678.png"},
+    {"t2":"卖爆3.6万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000011562661371&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2Feur9YrxC2LVqg7q2bOrw_A.jpg&productName=%E6%B8%85%E6%89%AC%EF%BC%88CLEAR%EF%BC%89%E7%94%B7%E5%A3%AB%E5%8E%BB%E5%B1%91%E6%B4%97%E5%8F%91%E9%9C%B2%E6%B8%85%E7%88%BD%E6%8E%A7%E6%B2%B9%E5%9E%8B%E8%93%9D%E7%93%B6720GX2%2B100GX2%E3%80%90%E8%81%94%E5%90%88%E5%88%A9%E5%8D%8E%E3%80%91%EF%BC%88%E6%96%B0%E8%80%81%E5%8C%85%E8%A3%85%E9%9A%8F%E6%9C%BA%E5%8F%91%E8%B4%A7%EF%BC%89&price=99.80&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162205%2Ccatesource%3Aparent-city&catalogueName=%E6%B8%85%E6%B4%81%E6%B4%97%E5%8F%91%E6%B0%B4%E6%A6%9C&catalogueId=162205&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/eur9YrxC2LVqg7q2bOrw_A.jpg","t1":"人气榜","t3":"清洁洗发水榜","icon":"https://image4.suning.cn/uimg/cms/img/159533154337628618.png"},
+    {"t2":"卖爆2.3万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000011874121536&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FN3wjK5Q-1T-43bWBqFiW4A.jpg&productName=%E4%B8%9C%E5%8F%A4%E4%B8%80%E5%93%81%E9%B2%9C%E7%89%B9%E7%BA%A7%E9%85%BF%E9%80%A0%E9%85%B1%E6%B2%B9500ml*2%E4%B8%AD%E5%8D%8E%E8%80%81%E5%AD%97%E5%8F%B7%E9%85%BF%E9%80%A0%E9%85%B1%E6%B2%B9%E7%94%9F%E6%8A%BD%E7%83%B9%E8%B0%83%E7%82%92%E8%8F%9C&price=21.80&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162086%2Ccatesource%3Aparent-city&catalogueName=%E6%B5%93%E9%83%81%E9%85%BF%E9%80%A0%E9%85%B1%E6%B2%B9%E6%A6%9C&catalogueId=162086&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/N3wjK5Q-1T-43bWBqFiW4A.jpg","t1":"人气榜","t3":"浓郁酿造酱油榜","icon":"https://image2.suning.cn/uimg/cms/img/159533155118200511.png"},
+    {"t2":"本周趋势上升68%","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000000620044893&productType=1&shopCode=0000000000&pictureUrl=https%3A%2F%2Fimage.suning.cn%2Fuimg%2Fb2c%2Fqrqm%2F0000000000000000000620044893.jpg%3Fver%3D2026&productName=%E6%9D%B0%E5%85%8B%E4%B8%B9%E5%B0%BC%E7%94%B0%E7%BA%B3%E8%A5%BF%E5%B7%9E%E5%A8%81%E5%A3%AB%E5%BF%8C%20700ml&price=162.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A62c2aea8-9e65-4474-9f9e-6a94131f7112%2Cdab%3A21-44_cateid%3A162076%2Ccatesource%3Aparent-city&catalogueName=%E8%BF%9B%E5%8F%A3%E5%93%81%E8%B4%A8%E6%B4%8B%E9%85%92%E6%A6%9C&catalogueId=162076&labelType=2-1","mg":"https://image.suning.cn/uimg/b2c/qrqm/0000000000000000000620044893.jpg?ver=2026","t1":"趋势榜","t3":"进口品质洋酒榜","icon":"https://image4.suning.cn/uimg/cms/img/159533153596347678.png"},
+    {"t2":"卖爆16.4万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0071259398&productCode=000000012080893750&productType=2&shopCode=0071259398&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FjPGKl4XmyUUFiazvFij-jQ.jpg&productName=%E6%AD%A3%E5%AE%97%E7%8C%AB%E5%B1%B1%E7%8E%8B%E6%A6%B4%E8%8E%B2%E9%A5%BC%E6%B5%81%E5%BF%83%E7%88%86%E6%B5%8610%E6%9E%9A%E6%A6%B4%E8%8E%B2%E9%85%A5%E6%95%B4%E7%AE%B1%E6%97%A9%E9%A4%90%E8%9B%8B%E7%B3%95%E7%82%B9%E5%BF%83%E5%8D%88%E8%8C%B6%E7%BD%91%E7%BA%A2%E4%BC%91%E9%97%B2%E9%9B%B6%E9%A3%9F%E7%A4%BC%E7%9B%92&price=9.90&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162103%2Ccatesource%3Aparent-city&catalogueName=%E9%9B%B6%E9%A3%9F%E7%B3%95%E7%82%B9%E6%A6%9C&catalogueId=162103&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/jPGKl4XmyUUFiazvFij-jQ.jpg","t1":"人气榜","t3":"零食糕点榜","icon":"https://image4.suning.cn/uimg/cms/img/159533154337628618.png"},
+    {"t2":"卖爆8.6万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000000617080610&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2F6CVmdkxcnnKkRZb6U9F1sQ.jpg&productName=%E5%A5%BD%E5%A5%87Huggies%E9%87%91%E8%A3%85%E6%8B%89%E6%8B%89%E8%A3%A4%E7%94%B7%E5%A5%B3%E9%80%9A%E7%94%A8XXL42%E7%89%87(15kg%E4%BB%A5%E4%B8%8A)%E5%8A%A0%E5%8A%A0%E5%A4%A7%E5%8F%B7%E5%A9%B4%E5%84%BF%E5%B0%BF%E4%B8%8D%E6%B9%BF%E6%88%90%E9%95%BF%E8%A3%A4%E7%BA%B8%E5%B0%BF%E8%A3%A4&price=79.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A161940%2Ccatesource%3Aparent-city&catalogueName=%E5%B9%B2%E7%88%BD%E7%BA%B8%E5%B0%BF%E8%A3%A4%E6%A6%9C&catalogueId=161940&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/6CVmdkxcnnKkRZb6U9F1sQ.jpg","t1":"人气榜","t3":"干爽纸尿裤榜","icon":"https://image2.suning.cn/uimg/cms/img/159533155118200511.png"},
+    {"t2":"卖爆10.0万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000010776710050&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FEhRkdHV6x9kDSn9Vcr3Q1g.jpg&productName=%E6%A1%91%E5%85%8B%E6%8B%89%EF%BC%88SUN%20CLARA%EF%BC%89%E4%B8%81%E9%A6%99%E8%8C%B6100g%2F%E7%93%B6%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1%E5%8E%9F%E4%BA%A7%E5%9C%B0%E7%B2%BE%E9%80%89%E5%85%BB%E5%AB%A9%E8%8A%BD%E8%83%83%E8%8C%B6%E5%85%BB%E7%94%9F%E8%8C%B6%E5%8F%B6&price=24.20&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162051%2Ccatesource%3Aparent-city&catalogueName=%E8%90%A5%E5%85%BB%E6%BB%8B%E8%A1%A5%E6%A6%9C&catalogueId=162051&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/EhRkdHV6x9kDSn9Vcr3Q1g.jpg","t1":"人气榜","t3":"营养滋补榜","icon":"https://image4.suning.cn/uimg/cms/img/159533153596347678.png"},
+    {"t2":"卖爆2.0万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0000000000&productCode=000000011890765218&productType=1&shopCode=0000000000&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FLw8WIPcZXm0auOhDghliNQ.jpg&productName=%E7%BE%8E%E7%9A%84(Midea)%201.5%E5%8C%B9%20%E6%96%B0%E8%83%BD%E6%95%88%E5%8F%98%E9%A2%91%20%E6%99%BA%E8%83%BD%E5%86%B7%E6%9A%96%E6%8C%82%E6%9C%BA%E7%A9%BA%E8%B0%83%201.5P%20%E6%8C%82%E5%A3%81%E5%BC%8F%E5%AE%B6%E7%94%A8%E7%A9%BA%E8%B0%83%E5%B0%8F%E8%8B%8F%E6%89%93KFR-35GW%2FN8VJA3&price=2099.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162553%2Ccatesource%3Aparent-city&catalogueName=%E7%95%85%E9%94%80%E5%AE%B6%E7%94%A8%E7%A9%BA%E8%B0%83%E6%A6%9C&catalogueId=162553&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/Lw8WIPcZXm0auOhDghliNQ.jpg","t1":"人气榜","t3":"畅销家用空调榜","icon":"https://image4.suning.cn/uimg/cms/img/159533154337628618.png"},
+    {"t2":"卖爆1.9万件","a":"https://phb.suning.com/bdIndex.html?supplierCode=0070210701&productCode=000000012102425018&productType=2&shopCode=0070210701&pictureUrl=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fsniss%2Fimprove%2FWEGtbqWhtZj1yakDvX9RJg.jpg&productName=%E3%80%90%E7%A4%BC%E5%88%B8%E3%80%91%E9%98%B3%E6%BE%84%E7%88%B5%E5%A3%AB%E9%98%B3%E6%BE%84%E6%B9%96%E5%A4%A7%E9%97%B8%E8%9F%B9%E7%A4%BC%E5%88%B8%201298%E5%9E%8B%20%E5%85%AC4.0%E4%B8%A4*4%E5%8F%AA%20%E6%AF%8D3.0%E4%B8%A4*4%E5%8F%AA%20%20%20%E5%A4%A7%E9%97%B8%E8%9F%B9%E7%A4%BC%E5%93%81%E5%8D%A1%20%20%E5%8D%A1%E5%88%B8%20%20%E7%A4%BC%E5%93%81%E5%8D%A1&price=228.00&handwork=rec_31-42_31-42_none_sys%3Arec%2Cinpo%3A0%2Ccpn%3A0%2Cp%3A1%2Cab%3AA%2Cuuid%3A9d9dd9cc-66ac-4c8d-adef-ee013826979f%2Cdab%3A17-78_cateid%3A162188%2Ccatesource%3Aparent-city&catalogueName=%E9%B2%9C%E5%AB%A9%E6%B0%B4%E4%BA%A7%E6%B5%B7%E9%B2%9C%E6%A6%9C&catalogueId=162188&labelType=1","mg":"http://imgservice.suning.cn/uimg1/sniss/improve/WEGtbqWhtZj1yakDvX9RJg.jpg","t1":"人气榜","t3":"鲜嫩水产海鲜榜","icon":"https://image2.suning.cn/uimg/cms/img/159533155118200511.png"},]
+
+var fourList=[
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/bBs4Diom0SCLn2cFiWsWmQ.jpg","pic":"24.90","num":"已拼6926件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/REs9PlweUYYo-PiXz5ySGQ.jpg","pic":"11.90","num":"已拼19749件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/q_Gd7MSHo1w5HXNH-fHsNQ.jpg","pic":"3.90","num":"已拼2725件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/weaHPflWJFesh_-PWlSG-Q.jpg","pic":"108.00","num":"已拼277件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/6PID-H_lAeJSxjOSXUmQMg.jpg","pic":"75.00","num":"已拼12716件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/xyJDluZkLBwzDB5qOSVYyQ==.jpg","pic":"14.90","num":"已拼11件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/nxpkExBAv8jRq3kw9WoJvQ.jpg","pic":"159.00","num":"已拼52678件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/KlLY_9xwJUB3F-c-SlKrLQ.jpg","pic":"8.80","num":"已拼16186件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/mHSDEP9iU1aDw9rwVukgGQ.jpg","pic":"7.90","num":"已拼447件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/bBs4Diom0SCLn2cFiWsWmQ.jpg","pic":"24.90","num":"已拼6926件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/REs9PlweUYYo-PiXz5ySGQ.jpg","pic":"11.90","num":"已拼19749件"},
+    {"mg":"//imgservice.suning.cn/uimg1/b2c/image/q_Gd7MSHo1w5HXNH-fHsNQ.jpg","pic":"3.90","num":"已拼2725件"},
+]
+
+
+var contentlist=[
+    
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/BiycQ9Dt4IStAtXYPFMOMw.png_200w_200h_4e","t1":"闲趣韧性饼干（自然清咸原味）900g/盒苏打休闲零食盒装","z1":"每159用30","z2":"返券","e1":"¥","p1":"29.90","p2":"49.90"},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/GCNFZ2gTMmhIwDyclR00Pw.jpg_200w_200h_4e","t1":"蓝月亮 洗衣液机洗2kg瓶*2+500g*2翻盖瓶+80g*2瓶 箱装 薰衣草香亮白增艳","z1":"每159用30","z2":"每99元减15元","e1":"¥","p1":"99.90","p2":"129.00"}
+    ,{"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/4YYiEZoD3t1duq4NmH_VMw.jpg_200w_200h_4e","t1":"Dior迪奥口红999#哑光版 烈艳蓝金魅惑粉漾闪亮女士丰唇唇膏 淡化唇色保湿遮瑕防冻裂 3.5g","z1":"","z2":"","e1":"¥","p1":"209.00","p2":""}
+    ,{"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/9lVPKjdknS7zrn4jLyus_A.jpg_200w_200h_4e","t1":"威露士衣物家居消毒液1L 衣物家居硬表面多用途消毒水杀菌率99.999%","z1":"每159用30","z2":"满2件打7.5折","e1":"¥","p1":"49.90","p2":""}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/QZF2eU4LsNN01WU17BwBWg.jpg_200w_200h_4e","t1":"【国内专柜版】迪奥 （Dior ）烈艳蓝金唇膏(520#)3.5g口红 缎光玫瑰红","z1":"","z2":"","e1":"¥","p1":"195.00","p2":"330.00"},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/gK67WmaWvfypAy7adqhBuw.jpg_200w_200h_4e","t1":"维达（Vinda） 卷纸 超韧4层78g*30卷无芯卷纸 卫生纸巾（整箱销售）","z1":"返券","z2":"","e1":"¥","p1":"35.90","p2":"35.91"},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/yX0HDa9zWzKbfaqD5E84jQ.jpg_200w_200h_4e","t1":"维达（Vinda） 卷纸 超韧三层100g*40卷无芯卷纸 卫生纸巾（整箱销售）新旧包装交替发货","z1":"返券","z2":"每55元减5元","e1":"¥","p1":"57.90","p2":""}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/kQHEyIUZKx8pnma2JpvLgg.jpg_200w_200h_4e","t1":"福临门妙惠家劲面1kg 面条 中式面","z1":"返券","z2":"","e1":"¥","p1":"14.50","p2":""}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/HulJS9F6QhKxrJHGTys49Q.jpg_200w_200h_4e","t1":"海天上等蚝油700G","z1":"返券","z2":"","e1":"¥","p1":"13.90","p2":"19.90"}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/ZFUKuwMSvNLZ6KQByApxLA.jpg_200w_200h_4e","t1":"海天 金标生抽 1.28L 调味品 炒菜炒面火锅调味料海天出品","z1":"返券","z2":"","e1":"¥","p1":"19.90","p2":"27.50"},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/Ac44argE2mbU9CBp-JW6MQ.jpg_200w_200h_4e","t1":"【实力防护】资生堂安耐晒金瓶防晒霜60ml 新版搭近江兄弟润唇膏 薄荷味 4g 裸色系","z1":"","z2":"","e1":"¥","p1":"198.00","p2":""},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/-bqEy4eqGUv50EbYE6Gwcw.jpg_200w_200h_4e","t1":"太太乐 三鲜鸡精227g 面条煲汤调味品调味料 替代味精","z1":"每159用30","z2":"返券","e1":"¥","p1":"9.90","p2":"10.90"},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/e-QN1DKV68rw17jaI0VoOQ.jpg_200w_200h_4e","t1":"伊利金典纯牛奶礼盒装250ml*12","z1":"每159用30","z2":"返券","e1":"¥","p1":"65.00","p2":""}
+    ,{"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/PWjkcJFNfcrjO-ML3_qQKw.jpg_200w_200h_4e","t1":"零度可乐汽水300ml*12 整箱装 可口可乐出品","z1":"返券","z2":"","e1":"¥","p1":"23.80","p2":""},
+    {"mg":"https://imgservice3.suning.cn/uimg1/b2c/image/qYvVVlaB5DkCR6WpfmT_vw.jpg_200w_200h_4e","t1":"雷达 电热蚊香液 灭蚊 驱蚊 防蚊 无线加热器+112晚 无香型【新老包装随机发货】","z1":"","z2":"","e1":"¥","p1":"25.20","p2":""}
+    ,{"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/kIB82OqUNVSqHllt1c2_Mw.jpg_200w_200h_4e","t1":"白猫去油护手洗洁精2000g温和不刺激可洗果蔬去油快洗得多","z1":"每159用30","z2":"","e1":"¥","p1":"18.90","p2":""},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/icSAj-OKil-0VCMGTjfUkQ.jpg_200w_200h_4e","t1":"多芬(Dove) 滋养美肤沐浴乳 深层营润1KG+清爽水润沐浴乳 清透水润300g【联合利华】","z1":"","z2":"","e1":"¥","p1":"39.90","p2":""},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/g_Q61Bpg6oMkNu-r83Ijxg.jpg_200w_200h_4e","t1":"SHISEIDO 资生堂SENKA珊珂 洗颜专科绵润泡沫洁面乳 120克/支 控油平衡深层清洁各种肤质通用","z1":"","z2":"","e1":"¥","p1":"36.00","p2":""}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/VGvW4k28E1f1y2h3nAuLDg.jpg_200w_200h_4e","t1":"欧莱雅（LOREAL）男士控油炭爽抗黑头洁面膏100ml 去角质;深层清洁;收缩毛孔;保湿补水 油性肤质 洗面奶 洁面乳","z1":"满99元减50元","z2":"","e1":"¥","p1":"39.00","p2":""},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/0B6Rdv5KcCmXgvTf7ksUIw.jpg_200w_200h_4e","t1":"清风 抽纸 淡绿花二层200抽*20包面巾纸 餐巾纸 擦手纸","z1":"每159用30","z2":"返券","e1":"¥","p1":"39.90","p2":""},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/0oaMPHsmsr0DgP1Xm4SKyQ.jpg_200w_200h_4e","t1":"【焕变水光肌】JMsolution肌司研 水光针剂 急救补水 面膜 10片/盒 黒臻版 保湿补水 JM","z1":"满2件打7.5折","z2":"","e1":"¥","p1":"52.90","p2":"65.00"}
+    ,{"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/GWrn-SnrqjSVHT_irAc5GA.jpg_200w_200h_4e","t1":"美迪惠尔(Mediheal)水润补水保湿面膜 27mlx10片 经典水库 澎湃水润 补水星品 品牌直供 苏宁物流","z1":"149元任选3件","z2":"","e1":"¥","p1":"129.00","p2":""},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/UnrWofvC0QsC200Pve8kyw.jpg_200w_200h_4e","t1":"苏宁极物小Biu智能电风扇JW-DC25S 直流变频 家用智能 遥控定时 节能台式立式落地扇两用 循环柔风 100档","z1":"","z2":"","e1":"¥","p1":"299.00","p2":"303.30"},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/UYOHIA3jn2GgMUihj8E1ew.jpg_200w_200h_4e","t1":"LSPG 万年青制药 一次性 医用口罩 50只装（5包 每包10只）灭菌级 蓝色","z1":"","z2":"","e1":"¥","p1":"29.90","p2":"34.90"},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/fdEr2c1EntW3Vqxsci3PaQ.jpg_200w_200h_4e","t1":"蓝禾医疗一次性医用50只装口罩防尘防菌防飞沫 蓝色","z1":"","z2":"","e1":"¥","p1":"29.90","p2":""}
+    ,{"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/ai4wyaIxzvHDskphsNU28g.jpg_200w_200h_4e","t1":"绿之源 绿呼吸一次性防护口罩三层50只装 舒适透气防尘防飞沫花粉防雾霾男女通用熔喷布口罩 天蓝色","z1":"每159用30","z2":"","e1":"¥","p1":"19.90","p2":"29.90"},
+    {"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/pmeJtbdfEb-xxiOTi59p9A.jpg_200w_200h_4e","t1":"LSPG一次性儿童口罩20只装（2包 每包10只）三层防护 熔喷布过滤 灭菌级 蓝色","z1":"满2件打5折","z2":"","e1":"¥","p1":"24.00","p2":""},
+    {"mg":"https://imgservice3.suning.cn/uimg1/b2c/image/KKHMBzcCmUWev1lA5IPk5Q.jpg_200w_200h_4e","t1":"PITTA MASK 日本进口 可水洗口罩 防花粉防污染 聚氨酯无纺布材质 耳戴式口罩 潮款3枚 灰色","z1":"","z2":"","e1":"¥","p1":"33.00","p2":""},
+    {"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/F6NC4QGq2mW9NHFZ81fDyA.jpg_200w_200h_4e","t1":"威露士(Walch)健康抑菌洗手液 (健康呵护)525ml 家用儿童通用杀菌消毒","z1":"满2件打5折","z2":"","e1":"¥","p1":"19.80","p2":""}
+    ,{"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/Xvuc5usSwnl25GH3_6WLrQ.jpg_200w_200h_4e","t1":"滴露(Dettol)健康抑菌洗手液滋润倍护500g 瓶装 抑菌99.9% 儿童洗手液","z1":"满30用5","z2":"","e1":"¥","p1":"19.90","p2":""},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/S6dBMsyIYl3NS8nt2z1VaA.jpg_200w_200h_4e","t1":"蓝月亮 芦荟抑菌洗手液500g瓶+500g袋补充装","z1":"满69用10","z2":"满1件打8折","e1":"¥","p1":"21.90","p2":"23.90"},
+    {"mg":"https://imgservice5.suning.cn/uimg1/b2c/image/ow25W4PcWb-IKo9VF6tUHQ.jpg_200w_200h_4e","t1":"威露士(walch) 泡沫抑菌洗手液瓶装 (健康呵护) 300ml 家用儿童通用杀菌消毒","z1":"每159用30","z2":"","e1":"¥","p1":"17.90","p2":"29.90"},
+    {"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/aNGqw-cEjzg75hMmz5XYUw.jpg_200w_200h_4e","t1":"威猛先生 深层净力洁厕啫喱 柠檬草香 双包装(500g+100g)*2 洁厕液 洁厕灵 洁厕精 洁厕剂 除菌","z1":"每159用30","z2":"","e1":"¥","p1":"18.90","p2":""},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/H5TIHHFMN9sZf0KJYn84hA.jpg_200w_200h_4e","t1":"1粒可用30天 亮净蓝泡泡洁厕宝5粒 快速去渍 袪味留香 洁净光亮不伤瓷 洁厕块/洁厕净/洁厕香球/洁厕剂/洁厕精","z1":"每159用30","z2":"满2件打5折","e1":"¥","p1":"29.90","p2":""},
+    {"mg":"https://imgservice1.suning.cn/uimg1/b2c/image/jjBPnD-TYt8dOLidwFDwfA.jpg_200w_200h_4e","t1":"超能柠檬护手洗洁精1.5kg*2强效活性去油离子轻松去油祛味除腥新添加助力健康安心厨房","z1":"","z2":"","e1":"¥","p1":"32.90","p2":""},
+    {"mg":"https://imgservice3.suning.cn/uimg1/b2c/image/lsZ7ESNx4p2wGnK-YguiFA.jpg_200w_200h_4e","t1":"奥克斯（AUX）电风扇FS1603家用床头定时落地扇 节能立式办公室静音风扇 黑色","z1":"每109元减20元,最多减6000元","z2":"","e1":"¥","p1":"109.00","p2":"137.00"},
+    {"mg":"https://imgservice4.suning.cn/uimg1/b2c/image/E4BMVcemo98e2Qw9nuxL9g.jpg_200w_200h_4e","t1":"美的电风扇FS40-18C三档可调 落地扇 电风扇 摇头 低噪静音 大功率 通风循环","z1":"","z2":"","e1":"¥","p1":"129.00","p2":"179.00"},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/UdKU2R8UaCxMjPcfMWFqUw.jpg_200w_200h_4e","t1":"云米电风扇家用台式落地扇大风扇立式电扇 3档机械控制静音台扇","z1":"","z2":"","e1":"¥","p1":"99.10","p2":"119.10"},
+    {"mg":"https://imgservice2.suning.cn/uimg1/b2c/image/7s1WuUB6185Pta62Byn5bQ.jpg_200w_200h_4e","t1":"舒肤佳沐浴露套装沐浴乳液 纯白720ml+芦荟720ml送青瓜400ml+纯白100ml*2无皂基 长效保护 王一博同款","z1":"","z2":"","e1":"¥","p1":"59.90","p2":""}
+]
+
+
+var imglist=[
+    {"as0":"//imgservice.suning.cn/uimg1/b2c/atmosphere/_tgtGY6_Oq7IiZJuugzgWg.jpg_800w_800h_4e",
+        "as1":"//imgservice.suning.cn/uimg1/b2c/image/hWs0wqdQCD2g_n_gDhpfTA.jpg_800w_800h_4e",
+        "as2":"//imgservice.suning.cn/uimg1/b2c/image/M7Pbh_9Q8P2AxKF7Q8YVHQ.jpg_800w_800h_4e",
+        "as3":"//imgservice.suning.cn/uimg1/b2c/image/de4Jw7fB6uKxwhIgrDePMg.jpg_800w_800h_4e",
+        "as4":"//imgservice.suning.cn/uimg1/b2c/image/5LA2ELi7xGdbIgNfw6_2yg.jpg_800w_800h_4e",
+        "as5":"//imgservice.suning.cn/uimg1/b2c/image/c49FXlhLsBpcf3s6V4WmKg.jpg_800w_800h_4e",
+        "h":"2020新品 Apple iPad Pro 11英寸 128G Wifi版 平板电脑 灰色 MY232CH/A",
+        "p":"6229"},
+    {"as0":"//imgservice.suning.cn/uimg1/b2c/atmosphere/nUcZvyrRxzGaRDuIcetleA.jpg_800w_800h_4e",
+        "as1":"//imgservice.suning.cn/uimg1/b2c/image/MJk-Kfo-URuOAT69GxkFFA.jpg_800w_800h_4e",
+        "as2":"//imgservice.suning.cn/uimg1/b2c/image/Gef6IJyX61DRVpNXvygU7g.jpg_800w_800h_4e",
+        "as3":"//imgservice.suning.cn/uimg1/b2c/image/1J6Y_ahRb8g_crwAlI-Gbg.jpg_800w_800h_4e",
+        "as4":"//imgservice.suning.cn/uimg1/b2c/image/jQ-67ML5nhdLCfKorsMFfg.jpg_800w_800h_4e",
+        "as5":"//imgservice.suning.cn/uimg1/b2c/image/G3GOjA6RtuSxZkIqfYlnnA.jpg_800w_800h_4e",
+        "h":"2020新品 Apple iPad Pro 11英寸 128G Wifi版 平板电脑 银色 MY252CH/A","p":"6229"},
+    {
+        "as0":"//imgservice.suning.cn/uimg1/b2c/atmosphere/TFM8c9T50E0S83Js0S0TPA.jpg_800w_800h_4e",
+        "as1":"//imgservice.suning.cn/uimg1/b2c/image/RyTZe_e17EJklvELNzKK3g.jpg_800w_800h_4e",
+        "as2":"//imgservice.suning.cn/uimg1/b2c/image/nYLJ77JuA4vs10jI_BOnyQ.jpg_800w_800h_4e",
+        "as3":"//imgservice.suning.cn/uimg1/b2c/image/8AqSIadFlBpV5stfXORi5w.jpg_800w_800h_4e",
+        "as4":"//imgservice.suning.cn/uimg1/b2c/image/o4oHv5mOczEym7E4C7uycg.jpg_800w_800h_4e",
+        "as5":"//imgservice.suning.cn/uimg1/b2c/image/AXVAsSGLHWUrOZljIzwIjg.jpg_800w_800h_4e",
+        "h":"2020新品 Apple iPad Pro 11英寸 256G Wifi版 平板电脑 灰色 MXDC2CH/A","p":"7029"},
+    {"as0":"//imgservice.suning.cn/uimg1/b2c/atmosphere/6NNKTppm8BkMXX4DRw4Ndg.jpg_800w_800h_4e",
+        "as1":"//imgservice.suning.cn/uimg1/b2c/image/RPZkk9hnwc1IRqiXmtRh1w.jpg_800w_800h_4e",
+        "as2":"//imgservice.suning.cn/uimg1/b2c/image/Gr9JZUMHQbY1AHRykarzlQ.jpg_800w_800h_4e",
+        "as3":"//imgservice.suning.cn/uimg1/b2c/image/nt-1tlZvJiR6H6ZM46GPaQ.jpg_800w_800h_4e",
+        "as4":"//imgservice.suning.cn/uimg1/b2c/image/0dCRgxWEW8aOHp0japFkzw.jpg_800w_800h_4e",
+        "as5":"//imgservice.suning.cn/uimg1/b2c/image/i07eeuMZ3LgvvIaGSeH_PA.jpg_800w_800h_4e",
+        "h":"2020新品 Apple iPad Pro 11英寸 128G Wifi版 平板电脑 银色 MY252CH/A","p":"7029"},
+    {"as0":"//imgservice.suning.cn/uimg1/b2c/image/xrQCHEOg-HKgz9UOVb4sFg.jpg_800w_800h_4e",
+        "as1":"//imgservice.suning.cn/uimg1/b2c/image/3XdL1Dtq8nYINcXS1mv61A.jpg_800w_800h_4e",
+        "as2":"//imgservice.suning.cn/uimg1/b2c/image/6GmfT1M7oRREbKBr9lZaiQ.jpg_800w_800h_4e",
+        "as3":"//imgservice.suning.cn/uimg1/b2c/image/sfKB5ZrLV2r7vOlFaaYxaQ.jpg_800w_800h_4e",
+        "as4":"//imgservice.suning.cn/uimg1/b2c/image/8_Y92B74arI4nrRyUDOnCQ.jpg_800w_800h_4e",
+        "as5":"",
+        "h":"2020新品 Apple iPad Pro 11英寸 512G Wifi版 平板电脑 灰色 MXDE2CH/A","p":"8629"},
+    {"as0":"//imgservice.suning.cn/uimg1/b2c/image/5IDRiucC0h9u7Q9Um3LXnA.jpg_800w_800h_4e",
+    "as1":"//imgservice.suning.cn/uimg1/b2c/image/jgdSHnZNbQ6MoOPM3luRgA.jpg_800w_800h_4e",
+    "as2":"//imgservice.suning.cn/uimg1/b2c/image/Y0gWXowqJqnmoOQHicZgAA.jpg_800w_800h_4e",
+    "as3":"//imgservice.suning.cn/uimg1/b2c/image/yBBXnPkTsX2rrAru-9lB2A.jpg_800w_800h_4e",
+    "as4":"//imgservice.suning.cn/uimg1/b2c/image/73PFPyeQEXiQCZMORKRECQ.jpg_800w_800h_4e",
+    "as5":"",
+    "h":"2020新品 Apple iPad Pro 11英寸 512G Wifi版 平板电脑 银色 MXDF2CH/A","p":"8629"},
+    
+    {"as0":"//img13.360buyimg.com/n1/s450x450_jfs/t1/103840/27/15612/251953/5e723cf9E7aaf69f8/25504630d76800dc.jpg",
+    "as1":"//img13.360buyimg.com/n1/s450x450_jfs/t1/85761/16/15549/146770/5e723cf9E1869015f/a457ae409ec9cc01.jpg",
+    "as2":"//img13.360buyimg.com/n1/s450x450_jfs/t1/92177/27/15568/211186/5e723cfaE5f78b4b8/aff37219bd8b5c7a.jpg",
+    "as3":"//img13.360buyimg.com/n1/s450x450_jfs/t1/120536/29/1178/107686/5eba0c6cE22e440f1/6398d057b594050c.jpg",
+    "as4":"//img13.360buyimg.com/n1/s450x450_jfs/t1/113135/26/6442/162295/5eba0c72E01f2df69/55295b0e90ad1e9d.jpg",
+    "as5":"//img13.360buyimg.com/n1/s450x450_jfs/t1/105735/33/15436/307179/5e723cfbE833fbe67/fbc01aa87a09dfaf.jpg",
+    "h":"Apple iPad Pro 11英寸平板电脑 2020年新款(1TB WLAN版/全面屏/A12Z/Face ID/MXDG2CH/A) 深空灰色","p":"10229"},
+    {"as0":"//img10.360buyimg.com/n1/s450x450_jfs/t1/101847/27/15652/241753/5e723d22E6064e210/0364ecd5dcaa00f0.jpg",
+    "as1":"//img10.360buyimg.com/n1/s450x450_jfs/t1/97366/1/15420/142383/5e723d22E36df0d87/341c06ecb4a1d9ef.jpg",
+    "as2":"//img10.360buyimg.com/n1/s450x450_jfs/t1/91858/1/15523/201411/5e723d22E392da0cf/69de9049077e846e.jpg",
+    "as3":"//img10.360buyimg.com/n1/s450x450_jfs/t1/123743/4/1158/107686/5eba0c99E5b7eafcd/0678cda946826202.jpg",
+    "as4":"//img10.360buyimg.com/n1/s450x450_jfs/t1/119505/10/4976/162295/5eba0ca0Ea28637a9/d542487e477cd69a.jpg",
+    "as5":"//img10.360buyimg.com/n1/s450x450_jfs/t1/104672/25/15408/307179/5e723d23E7f4a9aec/fca2a24669eea759.jpg",
+    "h":"Apple iPad Pro 11英寸平板电脑 2020年新款(1TB WLAN版/全面屏/A12Z/Face ID/MXDH2CH/A) 银色","p":"10229"},
+]
+var mglist=[
+    {
+        "a1":1,"a2":2,"a3":3
+    }
+]

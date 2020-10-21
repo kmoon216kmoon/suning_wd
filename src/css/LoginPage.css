@@ -1,0 +1,385 @@
+input {
+    outline: none;
+    border: none;
+    line-height: 36px;
+}
+#LoginPage-header {
+    width: 100%;
+    height: 100px;
+}
+
+.LoginPage-headerBox {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+    color: #333;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.LoginPage-headerBox-Logo{
+    float: left;
+    width: 189px;
+    height: 100%;
+    background: url(../img/159642507148437980.png) center no-repeat;
+    background-size: 189px;
+}
+.warning{
+    width: 748px;
+    height: 16px;
+    float: right;
+    border: 1px solid #fecd66;
+    margin-top: 37px;
+}
+.opinion{
+    float: right;
+    margin-top: 8px;
+}
+
+/*  */
+#LoginPage-main{
+    width: 100%;
+    height: 570px;
+    
+}
+.LoginPage-mainBox{
+    height: 570px;
+    min-width: 970px;
+    background: url(../img/160033458691457660.jpg) no-repeat center;
+    margin: 0 auto;
+    position: relative;
+}
+.Login-center{
+    width: 970px;
+    height: 570px;
+    margin: 0 auto;
+}
+.Login-form{
+    width: 360px;
+    height: 413px;
+    float: right;
+    background: #ffffff;
+    margin-top: 50px;
+}
+.Login-form-check{
+    width: 360px;
+    height: 50px;
+    
+}
+.Login-form-check a{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;color: #333;
+    border-bottom: 1px solid #EEEEEE;
+}
+.Login-form-check a span{
+    border-right: 1px solid #EEEEEE;
+    display: block;
+    width: 180px;
+    height: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.boxtwo i{
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #f60;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -35px;
+}
+.Login-form-check a:hover{
+    color: #f60;
+}
+.opinion:hover{
+    color: #f60;
+}
+.Login-form-users{
+    width: 360px;
+    height: 241px;
+}
+.Login-form-usersBox{
+    width: 242x;
+    height: 241px;
+    padding: 0 24px;
+}
+.Box{
+    width: 242px;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    position: relative;
+}
+.Box label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-left: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ccc;
+    cursor: text;
+    background: #fff;
+}
+#useript{
+    line-height: 36px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+}
+.Box i{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 26px;
+    z-index: 9999;
+}
+.placeholder{
+    position: absolute;
+    height: 100%;
+    color: #cacaca;
+    left: 0;
+    top: 0;
+    cursor: text;
+}
+.login-help{
+    padding-top: 10px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 12px;
+}
+.login-help a{
+    color: #333;
+}
+.login-help i{
+    background: url(../img/sprite.png) -21px -149px no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+}
+.login-help a:nth-of-type(1){
+    float: left;
+}
+.login-help a:nth-of-type(1):hover{
+    color: #f60;
+}
+.login-help a:nth-of-type(2){
+    float: right;
+}
+.login-help a:nth-of-type(2):hover{
+    color: #f60;
+    text-decoration: underline;
+}
+#submit{
+    display: block;
+    width: 310px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #f60;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+.free{
+    text-align: center;
+    margin: 12px 0 35px;
+}
+.free a{
+    font-size: 12px;
+    color: #f60;
+}
+.free a:hover{
+    text-decoration: underline;
+}
+.bind-login {
+    position: relative;
+    width: 310px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding: 19px 0 17px;
+}
+.bind-login .title {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    margin-left: -64px;
+    color: #999;
+    width: 128px;
+    background: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.logo-box a{
+    color: #333;
+    font-size: 12px;
+    float: left;
+    border-right: 1px solid #dedcd5;
+    padding: 0 7px;
+    line-height: 16px;
+}
+.qq i{
+    background: url(../img/sprite.png) -140px -108px no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.wx i{
+    background: url(../img/sprite.png) -90px -27px no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.yfb i{
+    background: url(../img/sprite.png) -119px -108px no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.wb i{
+    background: url(../img/sprite.png) -0px -149px no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.Login-form-ewm{
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+.Login-form-ewmBox{
+    height: 156px;
+    padding: 20px 34px 0;
+    position: relative;
+    margin-bottom: 17px;
+}
+.ewm-box{
+    width: 141px;
+    height: 141px;
+    margin: 0 auto;
+    transition: .3s all;
+    position: relative;
+}
+.ewm-box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.saoma{
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 12px;
+}
+.saoma a{
+    color: #333;
+    font-size: 12px;
+}
+.saoma em{
+    color: #f60;
+}
+.saoma i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: url(../img/sprite.png) -164px -67px no-repeat;
+    vertical-align: -3px;
+    *vertical-align: 0;
+}
+.ng-footer {
+    margin-top: 0;
+}
+.ng-s-footer {
+    height: 195px;
+    text-align: center;
+    background: #F8F8F8;
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.ng-s-footer .ng-s-f-con {
+    height: 210px;
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+    font-family: "Microsoft Yahei";
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+}
+
+
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+}
+.ng-s-footer p.ng-copyright {
+    width: 990px;
+    float: left;
+}
+.ng-s-footer p.ng-copyright {
+    margin-top: 0;
+}
+.ng-s-footer p.ng-copyright {
+    float: right;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin-top: 5px;    
+    background: #F8F8F8;
+}
+.ng-s-footer .ng-authentication {
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+    float: left;
+
+}
+.ng-s-footer .ng-authentication a {
+    display: inline-block;
+    margin-right: 8px;
+}
+.ng-authentication img {
+    border: none;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.ng-s-footer p.ng-copyright span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright a {
+    color: #999;
+}

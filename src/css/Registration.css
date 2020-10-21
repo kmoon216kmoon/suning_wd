@@ -1,0 +1,255 @@
+body{
+    background: #F8F8F8;
+}
+#Registration-header{
+    width: 100%;
+    height: 88px;
+    background: #F8F8F8;
+}
+.Registration-headerBox{
+    width: 990px;
+    height: 88px;
+    margin: 0 auto;
+}
+.Registration-headerBox a:nth-of-type(1){
+    display: block;
+    width: 190px;
+    height: 88px;
+    float: left;
+    margin-right: 24px;
+    background: url(../img/kk.png);
+}
+.Registration-headerBox span{
+    display: block;
+    float: left;
+    width: 72px;
+    height: 88px;
+    font-size: 18px;
+    color: #666;
+    line-height: 88px;
+}
+.Registration-headerBox a:nth-of-type(2){
+    display: block;
+    float: right;
+    color: #333;
+    font-size: 12px;
+    margin-top: 63px;
+}
+
+/* 注册部分 */
+#Registration-process{
+    width: 100%;
+    background: #F8F8F8;
+}
+.Registration-processMain{
+    width: 990px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-top: 3px solid #f90;
+    background: #fff;
+    padding: 55px 0;
+    line-height: 1.5;
+}
+.Registration-processMain-form{
+    width: 380px;
+    margin: 0 auto;
+}
+.form-gift{
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 17px;
+}
+.form-gift em{
+    color: #f40;
+}
+
+.form-phone{
+    width: 378px;
+    height: 38px;
+    border: 1px solid #ccc;
+    line-height: 38px;
+    position: relative;
+}
+.title{
+    float: left;
+    width: 76px;
+    padding-left: 11px;
+    font-size: 12px;
+}
+.form-phone{
+    
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.phone-inputWipper{
+    width: 291px;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+.placeholder{
+    position: absolute;
+    height: 100%;
+    color: #cacaca;
+    left: 0;
+    top: 0;
+    cursor: text;
+}
+.phone-inputWipper input{
+    border: 0;
+    width: 142px;
+}
+
+.code-inputWipper{
+    width: 142px;
+}
+.code-get{
+    float: left;
+    width: 147px;
+    height: 100%;
+    line-height: 38px;
+    text-align: center;
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #bbb;
+}
+
+#codeSend-success{
+    width: 380px;
+    height: 35px;
+    float: left;
+    font-size: 12px;
+    color: red;
+    margin-left: 30px;
+    display: none;
+
+}
+#password-success{
+    width: 380px;
+    height: 50px;
+    float:left;
+}
+.phone-sumbitBtn{
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    background: #f60;
+    font-size: 20px;
+    color: #fff;
+    margin: 24px 0 5px;
+    border: none;
+}
+input{
+    border: none;
+}
+input::placeholder{
+    font-size: 12px;
+    color: #cacaca;
+}
+.success {
+    outline: 2px solid #00FF00;
+}
+.error {
+    outline: 2px solid #FF0000;
+}
+.checkbox-sex{
+    width: 360px;
+    height: 100%;
+    border: none;
+    margin-bottom: 5px;
+    padding:0 10px;
+}
+.checkbox-sex .title{
+    width: 50px;
+    padding-left: 0;
+}
+.phone-area{
+    border: none;
+    margin-bottom: 5px;
+}
+.phone-area .title{
+    width: 50px;
+}
+
+.ng-footer {
+    margin-top: 0;
+}
+.ng-s-footer {
+    height: 195px;
+    text-align: center;
+    background: #F8F8F8;
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.ng-s-footer .ng-s-f-con {
+    height: 210px;
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+    font-family: "Microsoft Yahei";
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+}
+
+
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+}
+.ng-s-footer p.ng-copyright {
+    width: 990px;
+    float: left;
+}
+.ng-s-footer p.ng-copyright {
+    margin-top: 0;
+}
+.ng-s-footer p.ng-copyright {
+    float: right;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin-top: 5px;    
+    background: #F8F8F8;
+}
+.ng-s-footer .ng-authentication {
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+    float: left;
+
+}
+.ng-s-footer .ng-authentication a {
+    display: inline-block;
+    margin-right: 8px;
+}
+.ng-authentication img {
+    border: none;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.ng-s-footer p.ng-copyright span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright a {
+    color: #999;
+}
